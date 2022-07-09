@@ -33,3 +33,15 @@ a.get('foo', 'bar')
 a = {'name' : jjj, 'phone' : '01012345678', 'birth' : '0111'}
 'name' in a
 'email' in a
+
+#집합 자료형
+s1 = set([1,2,3])
+s1
+
+s2 = set("Hello")
+s2
+
+#비어있는 집합 자료형은 s = set()
+#집합 자료형의 특징
+#1. 중복을 허용하지 않는다.
+#2. 순서가 없다.
